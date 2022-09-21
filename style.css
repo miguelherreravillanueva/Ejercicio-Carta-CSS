@@ -1,0 +1,63 @@
+* {
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Ms Madi", cursive;
+    line-height: 1.5;
+    background-color: salmon;
+    
+  }
+  
+  h2,
+  h3 {
+    color: goldenrod;
+  }
+  
+  em {
+    font-weight: bold;
+    vertical-align: super;
+  }
+  
+  h3 {
+    text-align: center;
+  }
+
+ h2.c, h3.c {
+    background-color: aquamarine;
+  }
+  
+  q {
+    quotes: "«" "»";
+  }
+  
+  a {
+    text-decoration: underline;
+  }
+  
+  span.a {
+    word-spacing: 50px;
+  }
+  
+  span.b {
+    writing-mode: vertical-rl;
+  }
+  
+  div {
+    width: 500px;
+    border: 1px solid #000000;
+  }
+  
+  div.a {
+    word-wrap: normal;
+  }
+  
+  div.b {
+    word-wrap: break-word;
+    -webkit-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual;
+  }
+  
+  /* No acabo de entender cómo funciona el "word-wrap" y el "hyphen". Aunque copie y pegue el formato del ejemplo de w3school y le ponga mi propio texto, no se cambia.*/
